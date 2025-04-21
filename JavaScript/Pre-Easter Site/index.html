@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body id="body_id">
+        <script src="index.js"></script>
+        <h1 id="h1_text">Hello world!</h1>
+        <p id="par_text">This is a paragraph!</p>
+        <button onclick="test()">Click me!</button>
+
+        <br>
+
+        <p id="para_id"></p>
+        <form>
+            <label for="name_input">First Name: </label> <input type="text" name="name" id="name_input"> <br>
+            <label for="last_name_input">Last Name: </label> <input type="text" name="last_name" id="last_name_input"> <br>
+            <input type="button" value="Submit" onclick="infoSubmitted()">
+        </form>
+
+        <br>
+
+        <form>
+            <label for="fruit_input">Favourite Fruit: </label> <input type="text" name="name" id="fruit_input"> <br>
+            <input type="button" value="Submit" onclick="fruitTable()">
+        </form>
+        <br>
+        <table id="fruit_table"></table>
+
+        <br>
+
+        <input type="button" value="Count" onclick="numberTable()">
+        <table id="number_table"></table>
+
+        <br>
+
+        <form>
+            <label for="number_a">Number 1: </label> <input type="number" name="number_a" id="number_a"> <br>
+            <label for="number_b">Number 2: </label> <input type="number" name="number_b" id="number_b"> <br>
+            <label for="number_result">Result: </label> <input disabled id="number_result"> <br>
+            <input type="button" value="+" onclick="numberAddition()">
+            <input type="button" value="-" onclick="numberSubtraction()">
+        </form>
+
+    </body>
+</html>
